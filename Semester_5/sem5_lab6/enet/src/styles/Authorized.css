@@ -1,0 +1,99 @@
+div.allMessages {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-self: center;
+
+}
+
+div.currentDialog {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.line {
+    background: #2d4158;
+    width: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+div.backPhoto {
+    width: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: 100%;
+    align-self: center;
+    background-image: url("../images/backgroundRaccon.png");
+}
+
+div.sendMessage {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+input[type="text"] {
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+    background: #ffffff ;
+    outline: none;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 75%;
+    color: rgba(36,30,30,0.5);
+    box-shadow: 0 0 5px black;
+    font-size: 11px;
+}
+
+input[type="email"] {
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+    background: #ffffff ;
+    outline: none;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 75%;
+    color: rgba(36,30,30,0.5);
+    box-shadow: 0 0 5px black;
+    font-size: 11px;
+}
+
+
+input[type="password"] {
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+    background: #ffffff;
+    outline: none;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 75%;
+    margin-top: 20px;
+    color: rgba(36,30,30,0.5);
+    box-shadow: 0 0 5px black;
+    font-size: 11px;
+}
+
+input[type="submit"] {
+    border: 1px solid goldenrod;
+    border-radius: 30px;
+    margin: 20px;
+    background: gold;
+    outline: none;
+    height: 28px;
+    width: 50%;
+    color: black;
+    box-shadow: 0 0 5px black;
+    padding: 5px;
+    font-size: 11px;
+}
